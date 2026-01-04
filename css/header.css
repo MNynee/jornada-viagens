@@ -8,8 +8,12 @@ header {
     align-items: center;
 }
 
-.header-logo {
+.logo {
+    display: block;
     height: 64px;
+}
+
+.header-logo {
     width: 64px;
 }
 
