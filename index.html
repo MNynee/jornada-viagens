@@ -9,21 +9,32 @@
 </head>
 <body>
     <header>
-        <a href="#">
+        <a href="index.html" title="Voltar à página inicial">
             <img src="img/Header-e-rodapes/Símbolo_white.png" alt="logo Jornada Viagens" class="header-logo">
         </a>
 
-        <img src="img/Header-e-rodapes/menu.png" alt="menu">
+        <input type="checkbox" name="hamburger-menu" id="hamburger-menu" class="hamburger-menu">
+        <label for="hamburger-menu">
+            <img src="img/Header-e-rodapes/menu.png" alt="menu">
+        </label>
         <nav class="header-menu">
-            <a href="#" class="header-link">
-                Blog
-            </a>
-            <a href="#" class="header-link">
-                Pacotes de viagem
-            </a>
-            <a href="#" class="header-link">
-                Contato
-            </a>
+            <ul>
+                <li>
+                    <a href="blog.html" class="header-link" target="_blank" title="Acessar blog">
+                        Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="pacotes.html" class="header-link" target="_blank" title="Acessar pacotes de viagem">
+                        Pacotes de viagem
+                    </a>
+                </li>
+                <li>
+                    <a href="contato.html" class="header-link" target="_blank" title="Entre em contato">
+                        Contato
+                    </a>
+                </li>
+            </ul>
         </nav>
     </header>
 
