@@ -1,0 +1,21 @@
+.banner-content img {
+    width: 100%;
+}
+
+.banner-subtitle {
+    margin: 88px 24px;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .banner-content .banner-subtitle {
+        font-size: 2rem;
+        margin: 88px 60px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .banner-content .banner-subtitle {
+        margin: 104px 120px;
+    }
+}

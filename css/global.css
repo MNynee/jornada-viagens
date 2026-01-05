@@ -35,3 +35,18 @@
 body {
     font-family: var(--font-main);
 }
+
+.regular-text {
+    font-size: 1.25rem;
+    font-weight: var(--weight-regular);
+}
+
+.regular-subtitle {
+    font-size: 1.75rem;
+    font-weight: var(--weight-title);
+}
+
+.regular-title {
+    font-size: 2rem;
+    font-weight: var(--weight-title);
+}
