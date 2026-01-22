@@ -1,21 +1,27 @@
-.banner-content img {
+.hero-content img {
     width: 100%;
 }
 
-.banner-subtitle {
+.hero-subtitle {
     margin: 88px 24px;
     text-align: center;
 }
 
 @media screen and (min-width:768px) {
-    .banner-content .banner-subtitle {
+    .hero-content .hero-subtitle {
         font-size: 2rem;
         margin: 88px 60px;
     }
 }
 
 @media screen and (min-width:1024px) {
-    .banner-content .banner-subtitle {
+    .hero-content .hero-subtitle {
         margin: 104px 120px;
+    }
+}
+
+@media screen and (min-width:1441px) {
+    .hero-content .hero-subtitle {
+        margin: 104px 160px;
     }
 }
