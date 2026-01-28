@@ -33,12 +33,19 @@
 }
 
 body {
-    font-family: var(--font-main);
+  font-family: var(--font-main);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 88px;
 }
 
 .regular-text {
     font-size: 1.25rem;
     font-weight: var(--weight-regular);
+    margin-bottom: 8px;
 }
 
 .regular-subtitle {
@@ -49,4 +56,14 @@ body {
 .regular-title {
     font-size: 2rem;
     font-weight: var(--weight-title);
+
+    &::after {
+      content: "";
+      display: block;
+      width: 180px;
+      height: 4px;
+      background-color: var(--bg-button);
+      margin-top: 1rem;
+      justify-self: center;
+    }
 }
