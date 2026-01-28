@@ -34,6 +34,7 @@
 
 body {
   font-family: var(--font-main);
+  color: var(--text-main-color);
 }
 
 main {
@@ -78,4 +79,10 @@ main {
     font-weight: 700;
     text-align: center;
     color: var(--text-secondary-color);
+}
+
+@media screen and (min-width:1440px){
+  main {
+    gap: 104px;
+  }
 }
