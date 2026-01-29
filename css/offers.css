@@ -1,12 +1,4 @@
-.offers-container {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
-}
-
-.offers-container .offers-title {
+.container .offers-title {
   font-size: 1.75rem;
 }
 
@@ -63,11 +55,7 @@
 }
 
 @media screen and (min-width: 720px) {
-  .offers-container {
-    margin: 0 60px;
-  }
-
-  .offers-container .offers-title {
+  .container .offers-title {
     font-size: 2rem;
   }
 
@@ -94,10 +82,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .offers-container {
-    margin: 0 120px;
-  }
-
   .offers-card {
     max-width: 380px;
   }
@@ -120,10 +104,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .offers-container {
-    gap: 64px;
-  }
-
   .offers-card {
     max-width: 588px;
   }
@@ -138,8 +118,7 @@
 }
 
 @media screen and (min-width: 1441px) {
-  .offers-container {
-    gap: 64px;
+  .container {
     margin: 0 160px;
   }
 }
