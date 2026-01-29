@@ -1,0 +1,145 @@
+.offers-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.offers-container .offers-title {
+  font-size: 1.75rem;
+}
+
+.offers-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.offers-card {
+  width: 87%;
+}
+
+.card.japao {
+  background-image: url(../img/Mobile/1-Homepage/Japão.png);
+}
+
+.card.san-andreas {
+  background-image: url(../img/Mobile/1-Homepage/San-Andreas.png);
+}
+
+.card.paraiba {
+  background-image: url(../img/Mobile/1-Homepage/Paraiba.png);
+}
+
+.card.manaus {
+  background-image: url(../img/Mobile/1-Homepage/Manaus.png);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 16px;
+  border-radius: 16px;
+  color: var(--text-secondary-color);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-title {
+  font-size: 2.5rem;
+  font-weight: var(--weight-title);
+}
+
+.card-price {
+  font-size: 2rem;
+  font-weight: var(--weight-title);
+  margin: 24px 0;
+}
+
+@media screen and (min-width: 720px) {
+  .offers-container {
+    margin: 0 60px;
+  }
+
+  .offers-container .offers-title {
+    font-size: 2rem;
+  }
+
+  .offers-card {
+    max-width: 312px;
+    width: 100%;
+  }
+
+  .card.japao {
+    background-image: url(../img/Tablet/1-Homepage/Japão.png);
+  }
+
+  .card.san-andreas {
+    background-image: url(../img/Tablet/1-Homepage/San-Andreas.png);
+  }
+
+  .card.paraiba {
+    background-image: url(../img/Tablet/1-Homepage/Paraiba.png);
+  }
+
+  .card.manaus {
+    background-image: url(../img/Tablet/1-Homepage/Manaus.png);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .offers-container {
+    margin: 0 120px;
+  }
+
+  .offers-card {
+    max-width: 380px;
+  }
+
+  .card.japao {
+    background-image: url(../img/Desktop/1-Homepage/Japão.png);
+  }
+
+  .card.san-andreas {
+    background-image: url(../img/Desktop/1-Homepage/San-Andreas.png);
+  }
+
+  .card.paraiba {
+    background-image: url(../img/Desktop/1-Homepage/Paraiba.png);
+  }
+
+  .card.manaus {
+    background-image: url(../img/Desktop/1-Homepage/Manaus.png);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .offers-container {
+    gap: 64px;
+  }
+
+  .offers-card {
+    max-width: 588px;
+  }
+
+  .card-title {
+    font-size: 3rem;
+  }
+
+  .card-price {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .offers-container {
+    gap: 64px;
+    margin: 0 160px;
+  }
+}

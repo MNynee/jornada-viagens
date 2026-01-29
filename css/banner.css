@@ -3,25 +3,25 @@
 }
 
 .hero-subtitle {
-    margin: 88px 24px;
+    margin: 88px 24px 0 24px;
     text-align: center;
 }
 
 @media screen and (min-width:768px) {
     .hero-content .hero-subtitle {
         font-size: 2rem;
-        margin: 88px 60px;
+        margin: 88px 60px 0 60px;
     }
 }
 
 @media screen and (min-width:1024px) {
     .hero-content .hero-subtitle {
-        margin: 104px 120px;
+        margin: 104px 120px 0 120px;
     }
 }
 
 @media screen and (min-width:1441px) {
     .hero-content .hero-subtitle {
-        margin: 104px 160px;
+        margin: 104px 160px 0 160px;
     }
 }
