@@ -10,6 +10,7 @@
   --bg-secondary: #d9d9d9;
   --bg-header: #000000;
   --bg-button: #b81515;
+  --bg-badge: #f5f5f5;
 
   --text-main-color: #222222;
   --text-secondary-color: #ffffff;
@@ -32,6 +33,11 @@
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: var(--text-main-color);
+}
+
 body {
   font-family: var(--font-main);
   color: var(--text-main-color);
@@ -41,6 +47,14 @@ main {
   display: flex;
   flex-direction: column;
   gap: 88px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .regular-text {
@@ -57,6 +71,7 @@ main {
 .regular-title {
   font-size: 2rem;
   font-weight: var(--weight-title);
+  text-align: center;
 
   &::after {
     content: "";
@@ -86,8 +101,31 @@ main {
   }
 }
 
+@media screen and (min-width: 720px) {
+  .container {
+    margin: 0 60px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    margin: 0 120px;
+  }
+}
+
 @media screen and (min-width: 1440px) {
+  .container {
+    gap: 64px;
+  }
+
   main {
     gap: 104px;
   }
 }
+
+@media screen and (min-width: 1441px) {
+  .container {
+    margin: 0 160px;
+  }
+}
+
