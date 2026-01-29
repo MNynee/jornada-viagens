@@ -76,7 +76,7 @@ main {
     border-radius: 8px;
     background-color: var(--bg-button);
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: var(--weight-title);
     text-align: center;
     color: var(--text-secondary-color);
 }
