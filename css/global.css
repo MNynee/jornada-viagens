@@ -61,6 +61,7 @@ main {
   font-size: 1.25rem;
   font-weight: var(--weight-regular);
   margin-bottom: 8px;
+  line-height: 32px;
 }
 
 .regular-subtitle {
