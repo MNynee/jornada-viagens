@@ -86,7 +86,8 @@ main {
 
 .button {
   text-decoration: none;
-  width: 100%;
+  width: 280px;
+  height: 64px;
   padding: 16px 0;
   border-radius: 8px;
   background-color: var(--bg-button);
@@ -101,7 +102,7 @@ main {
   }
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   .container {
     margin: 0 60px;
   }
