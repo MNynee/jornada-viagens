@@ -1,0 +1,83 @@
+.payments-content {
+  width: 87%;
+}
+
+.payments-content,
+.payments-text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+}
+
+.payments-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.payments-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.payments-image-1 {
+  background-image: url("../img/Mobile/1-Homepage/Montagem-japao-1.png");
+  height: 254px;
+  grid-area: 1/1/2/2;
+}
+
+.payments-image-2 {
+  background-image: url("../img/Mobile/1-Homepage/Montagem-japao-2.png");
+  height: 254px;
+  grid-area: 1/2/2/3;
+}
+
+.payments-image-3 {
+  background-image: url("../img/Mobile/1-Homepage/Montagem-japao-3.png");
+  height: 182px;
+  grid-area: 2/1/3/3;
+}
+
+@media screen and (min-width:768px) {
+    .payments-content {
+        width: 100%;
+    }
+
+    .payments-image-1 {
+  background-image: url("../img/Tablet/1-Homepage/Montagem-japao-1.png");
+}
+
+.payments-image-2 {
+  background-image: url("../img/Tablet/1-Homepage/Montagem-japao-2.png");
+}
+
+.payments-image-3 {
+  background-image: url("../img/Tablet/1-Homepage/Montagem-japao-3.png");
+}
+}
+
+@media screen and (min-width:1024px) {
+    .payments-content {
+        justify-content: space-between;
+    }
+
+    .payments-text {
+        width: 32%;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .payments-subtitle {
+        width: 80%;
+    }
+
+    .payments-images {
+        width: 65%;
+    }
+}
