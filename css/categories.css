@@ -39,7 +39,17 @@
 }
 
 @media screen and (min-width:1440px) {
+    .categories-list {
+        flex-wrap: nowrap;
+    }
+
     .categories-list a {
         max-width: 281px;
+    }
+}
+
+@media screen and (min-width:1441px) {
+    .categories-list a {
+        max-width: 100%;
     }
 }
