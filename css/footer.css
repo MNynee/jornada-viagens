@@ -52,15 +52,30 @@ footer {
   gap: 0.5rem;
 }
 
+/* Página Pacotes de Viagem - Japao */
+
+.pre-footer-banner.japao {
+  background-image: url('../img/Mobile/3-Destino/Imagem-pre-rodape.png');
+}
+
 @media screen and (min-width: 768px) {
   .pre-footer-banner {
     background-image: url("../img/Tablet/1-Homepage/Imagem-pre-rodape.png");
+  }
+
+  .pre-footer-banner.japao {
+    background-image: url('../img/Tablet/3-Destino/Imagem-pre-rodape.png');
   }
 }
 
 @media screen and (min-width: 1024px) {
   .pre-footer-banner {
     background-image: url("../img/Desktop/1-Homepage/Imagem-pre-rodape.png");
+  }
+
+  .pre-footer-banner.japao {
+    background-image: url('../img/Desktop/3-Destino/Imagem-pre-rodape.png');
+    height: 600px;
   }
 
   .footer-container {
@@ -93,5 +108,9 @@ footer {
 @media screen and (min-width: 1441px) {
   .pre-footer-banner {
     background-image: url("../img/Desktop_Large/1-Homepage/Imagem-pre-rodape.png");
+  }
+
+  .pre-footer-banner.japao {
+    background-image: url('../img/Desktop_Large/3-Destino/Imagem-pre-rodape.png');
   }
 }

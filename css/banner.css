@@ -8,10 +8,49 @@
     line-height: 150%;
 }
 
+/* Página Pacotes de Viagem */
+
+.hero-content.japan {
+    background-image: url('../img/Mobile/3-Destino/Banner-Destino.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 460px;
+    padding: 65px 24px;
+    color: var(--text-secondary-color);
+}
+
+.hero-title.japan {
+    font-size: 3rem;
+    text-align: left;
+
+    &::after {
+        justify-self: left;
+        margin-bottom: 32px;
+    }
+}
+
+.hero-subtitle.japan {
+    text-align: left;
+    margin: 0;
+}
+
 @media screen and (min-width:768px) {
     .hero-content .hero-subtitle {
         font-size: 2rem;
         margin: 88px 60px 0 60px;
+    }
+
+    .hero-content.japan {
+        background-image: url('../img/Tablet/3-Destino/Banner-Destino.png');
+        height: 620px;
+        align-content: end;
+        padding-bottom: 107px;
+    }
+
+    .hero-content.japan .hero-subtitle,
+    .hero-content.japan .hero-title {
+        margin: 0 60px 0 94px;
     }
 }
 
@@ -19,10 +58,23 @@
     .hero-content .hero-subtitle {
         margin: 104px 120px 0 120px;
     }
+
+    .hero-content.japan {
+        background-image: url('../img/Desktop/3-Destino/Banner-Destino.png');
+        align-content: center;
+    }
+
+    .hero-content.japan .hero-subtitle {
+        width: 579px;
+    }
 }
 
 @media screen and (min-width:1441px) {
     .hero-content .hero-subtitle {
         margin: 104px 160px 0 160px;
+    }
+
+    .hero-content.japan {
+        background-image: url('../img/Desktop_Large/3-Destino/Banner-Destino.png');
     }
 }
